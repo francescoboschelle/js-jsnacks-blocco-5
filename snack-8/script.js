@@ -25,3 +25,5 @@ const students = [
 console.log(
   students.filter((student) => student.name === "Marco Lanci")[0].class
 );
+
+console.log(students.find((student) => student.name === "Marco Lanci").class);
